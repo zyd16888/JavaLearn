@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 /**
  * 描述:
  * 测试Person重写的Object类
