@@ -1,3 +1,6 @@
+/**
+ * @author dong
+ */
 public class StudentTeacherTest {
     public static void main(String[] args) {
         Person p = new Person("张三",23);
