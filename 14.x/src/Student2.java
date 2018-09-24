@@ -7,6 +7,7 @@
 public class Student2 extends Person2{
     public String name = "李四";
 
+    @Override
     public String getName() {
         return name;
     }
