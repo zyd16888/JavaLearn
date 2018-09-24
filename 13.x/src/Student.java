@@ -12,4 +12,11 @@ public class Student extends Person{
         this.schoolName = schoolName;
         System.out.println("有参数实例化Student类完成");
     }
+
+    @Override
+    public void display(){
+        super.display();
+        System.out.println("成绩："+grade);
+        System.out.println("校名："+schoolName);
+    }
 }
