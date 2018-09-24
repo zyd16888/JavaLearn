@@ -18,4 +18,11 @@ public class MobilePhone extends Phone {
     public double pay(int time, double price){
         return (time * price);
     }
+
+    @Override
+    public void display() {
+        super.display();
+        System.out.println("品牌："+brand);
+        System.out.println("机主身份证号："+ownerId);
+    }
 }
