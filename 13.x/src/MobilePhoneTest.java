@@ -9,7 +9,7 @@ public class MobilePhoneTest {
     public static void main(String[] args) {
         MobilePhone  m = new  MobilePhone("13700000000","三星","142256188705064589");
         m.display();
-        System.out.println("话费为："+m.pay(20,0.1));
+        System.out.println("话费为："+m.pay(20,0.1)+"元");
 
     }
 
