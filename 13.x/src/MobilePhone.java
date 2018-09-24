@@ -7,9 +7,9 @@
  */
 public class MobilePhone extends Phone {
     private String brand;
-    private long ownerId;
+    private String ownerId;
 
-    public MobilePhone(String code, String brand, long ownerId) {
+    public MobilePhone(String code, String brand, String ownerId) {
         super(code);
         this.brand = brand;
         this.ownerId = ownerId;
