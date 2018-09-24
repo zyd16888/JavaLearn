@@ -4,11 +4,6 @@
 public class Person {
     private String name;
     private int age;
-    public String name2 = "张三";
-
-    public String getName2() {
-        return name2;
-    }
 
     public Person(String name, int age) {
         this.name = name;
