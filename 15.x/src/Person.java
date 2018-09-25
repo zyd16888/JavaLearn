@@ -14,5 +14,12 @@ public abstract class Person {
         this.age = age;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * 抽象类
+     */
     public abstract void display();
 }
