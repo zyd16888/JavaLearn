@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c301a6eb-5df5-4f2a-b8c6-4a0b9839bdbb" name="默认更改列表" comment="9.x">
-      <change afterPath="$PROJECT_DIR$/../15.x/src/RectagleTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15.x/src/TableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../15.x/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15.x/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -128,7 +127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537837645028" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537837833047" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../15.x" />
   </component>
   <component name="RunDashboard">
