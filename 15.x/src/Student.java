@@ -5,10 +5,10 @@
  * @author dong
  * @date 2018-09-25 8:21
  */
-public class Studnet extends Person {
+public class Student extends Person {
     private double grade;
 
-    public Studnet(String name, int age, double grade) {
+    public Student(String name, int age, double grade) {
         super(name, age);
         this.grade = grade;
     }
