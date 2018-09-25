@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="882fdf24-0720-4030-b36c-1f47a28158e2" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../14.x/src/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14.x/src/MobilePhoneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14.x/src/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15.x/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15.x/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15.x/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15.x/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15.x/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15.x/src/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1550" />
     <option name="height" value="935" />
@@ -151,7 +153,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537833891335" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537834559160" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -365,7 +367,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16689008" />
