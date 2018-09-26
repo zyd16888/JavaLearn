@@ -1,14 +1,14 @@
 public class MobilePhone {
     private String brand;
-    private long code;
+    private String code;
 
 //    构造方法
-    public MobilePhone(String brand,long code){
+    public MobilePhone(String brand,String code){
         this.brand = brand;
         this.code = code;
     }
     public MobilePhone(){
-        this("",0);
+        this("","");
     }
 
 //    置取方法
@@ -20,22 +20,18 @@ public class MobilePhone {
         this.brand = brand;
     }
 
-    public long getCode() {
+    public String getCode() {
         return code;
     }
 
-    public void setCode(long code) {
+    public void setCode(String code) {
         this.code = code;
     }
 
 //    普通方法
     void display(){
         System.out.println("品牌："+brand);
-        System.out.println("号码："+code);
+        System.out.println("手机号码："+code);
     }
 
-    //主函数
-    public static void main(String[] args) {
-
-    }
 }
