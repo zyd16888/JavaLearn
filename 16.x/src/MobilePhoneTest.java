@@ -11,7 +11,7 @@ public class MobilePhoneTest {
         m = new Student("张三",23,86);
         m.move();
 
-        m = new MobilePhone("Hk","13800000000");
+        m = new MobilePhone("HK","13800000000");
         ((MobilePhone) m).print();
         m.move();
     }
