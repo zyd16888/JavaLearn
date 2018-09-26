@@ -1,9 +1,12 @@
 public class Worker {
     private String name;
     private int age;
-    private double salary;
+    private int salary;
     private String grade;
 
+    /**
+     * get与set方法
+     * */
     public String getName() {
         return name;
     }
@@ -20,11 +23,11 @@ public class Worker {
         this.age = age;
     }
 
-    public double getSalary() {
+    public int getSalary() {
         return salary;
     }
 
-    public void setSalary(double salary) {
+    public void setSalary(int salary) {
         this.salary = salary;
     }
 
@@ -36,10 +39,25 @@ public class Worker {
         this.grade = grade;
     }
 
+    /**
+     * 构造方法
+     * */
+
+    public Worker(String name, int age, int salary, String grade) {
+        this.name = name;
+        this.age = age;
+        this.salary = salary;
+        this.grade = grade;
+    }
+
+    public Worker() {
+        this("",0,0, "");
+    }
+
     void display(){
-        System.out.println("姓名："+name);
-        System.out.println("年龄："+age);
-        System.out.println("工资："+salary);
-        System.out.println("级别："+grade);
+        System.out.println("工人姓名："+name);
+        System.out.println("工人年龄："+age);
+        System.out.println("工人工资："+salary);
+        System.out.println("工人级别："+grade);
     }
 }
