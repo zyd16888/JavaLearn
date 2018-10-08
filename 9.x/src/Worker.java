@@ -1,8 +1,8 @@
 public class Worker {
     private String name;
     private int age;
-    private int salary;
-    private String grade;
+    private int wages;
+    private String evel;
 
     /**
      * get与set方法
@@ -23,31 +23,31 @@ public class Worker {
         this.age = age;
     }
 
-    public int getSalary() {
-        return salary;
+    public int getWages() {
+        return wages;
     }
 
-    public void setSalary(int salary) {
-        this.salary = salary;
+    public void setWages(int wages) {
+        this.wages = wages;
     }
 
-    public String getGrade() {
-        return grade;
+    public String getevel() {
+        return evel;
     }
 
-    public void setGrade(String grade) {
-        this.grade = grade;
+    public void setevel(String evel) {
+        this.evel = evel;
     }
 
     /**
      * 构造方法
      * */
 
-    public Worker(String name, int age, int salary, String grade) {
+    public Worker(String name, int age, int wages, String evel) {
         this.name = name;
         this.age = age;
-        this.salary = salary;
-        this.grade = grade;
+        this.wages = wages;
+        this.evel = evel;
     }
 
     public Worker() {
@@ -57,7 +57,7 @@ public class Worker {
     void display(){
         System.out.println("工人姓名："+name);
         System.out.println("工人年龄："+age);
-        System.out.println("工人工资："+salary);
-        System.out.println("工人级别："+grade);
+        System.out.println("工人工资："+wages);
+        System.out.println("工人级别："+evel);
     }
 }
