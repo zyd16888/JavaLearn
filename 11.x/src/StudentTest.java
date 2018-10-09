@@ -10,5 +10,8 @@ public class StudentTest {
         Student s1 = new Student("张三",23,74);
         Student s2 = new Student("张三1",23,74);
         s1.beSame(s2.getName());
+        s2.beSame(s1.getName(),s1.getAge());
+        s1.beSame(s2);
+        s2.beSame(s1);
     }
 }

@@ -57,7 +57,7 @@ public class Student {
         return flag;
     }
 
-    public boolean beSame(){
+    public boolean beSame(Student s2){
         return Boolean.parseBoolean(null);
     }
 
