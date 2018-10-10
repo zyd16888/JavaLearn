@@ -53,10 +53,10 @@ public class Worker {
         this.table = table;
     }
 
-    public double annualIncome(double payroll, int workTime){
-        return payroll + workTime * 20;
+    public int annualIncome(int payroll, int workTime,int  unitPrice){
+        return payroll + workTime * unitPrice;
     }
-    public double annualIncome(double monthlySalary){
+    public int annualIncome(int monthlySalary){
         return monthlySalary*12;
     }
 
@@ -65,6 +65,6 @@ public class Worker {
         System.out.println("年龄："+age);
         System.out.println("工资："+salary);
         System.out.println("级别："+grade);
-        table.print();
+        //table.print();
     }
 }
