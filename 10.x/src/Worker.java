@@ -1,7 +1,11 @@
+/**
+ * @author dong
+ * @date 2018-10-10 16:31
+ */
 public class Worker {
     private String name;
     private int age;
-    private double salary;
+    private int salary;
     private String grade;
     private TableInfo table ;
 
@@ -25,7 +29,7 @@ public class Worker {
         return salary;
     }
 
-    public void setSalary(double salary) {
+    public void setSalary(int salary) {
         this.salary = salary;
     }
 
@@ -45,7 +49,7 @@ public class Worker {
         this.table = table;
     }
 
-    public Worker(String name, int age, double salary, String grade, TableInfo table) {
+    public Worker(String name, int age, int salary, String grade, TableInfo table) {
         this.name = name;
         this.age = age;
         this.salary = salary;
@@ -54,10 +58,11 @@ public class Worker {
     }
 
     void display(){
-        System.out.println("姓名："+name);
-        System.out.println("年龄："+age);
-        System.out.println("工资："+salary);
-        System.out.println("级别："+grade);
-        table.print();
+        System.out.println("工人姓名："+name);
+        System.out.println("工人年龄："+age);
+        System.out.println("工人工资："+salary);
+        System.out.println("工人级别："+grade);
+        System.out.println(this.name+"拥有一张"+table.shape+"的桌子");
+        //table.print();
     }
 }
