@@ -2,6 +2,8 @@
  * 描述:
  * 方桌类，实现接口CalculateAble
  * 16.14
+ * 16.5.3题
+ *
  * @author dong
  * @date 2018-09-26 17:44
  */
@@ -18,5 +20,10 @@ public class RectangelTable extends TableInfo implements CalculateAble{
     @Override
     public double getArea() {
         return len * width;
+    }
+
+    @Override
+    public double getPerimeter() {
+        return 2*(len+width);
     }
 }
