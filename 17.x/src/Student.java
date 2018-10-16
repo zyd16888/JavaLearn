@@ -1,5 +1,12 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 /**
  * 17.2
+ * 17.4
+ * 17.5
  *
  * @author dong
  */
@@ -15,6 +22,23 @@ public class Student {
         this.grade = grade;
         this.myphone = myphone;
         this.myphone.setOwner(null);
+
+    }
+
+    public void getInfo(){
+        int ch;
+        try {
+            FileInputStream ins = new FileInputStream("student.txt");
+            while ((ch = ins.read())!= -1){
+                System.out.println((char)ch);
+            }
+        }
+        catch (FileNotFoundException e){
+            System.out.println("未找到文件，请重试！");
+        }
+        catch (IOException e){
+            System.out.println("文件IO错误！");
+        }
 
     }
 
