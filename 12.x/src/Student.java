@@ -4,16 +4,22 @@ public class Student {
     private String name;
     private int age;
     private double grade;
+    private static String sameGoal;
     private static int counter = 0;
     private static Student inst = null;
-    private Student(){
 
-    }
+
     public static Student getInstance(){
         if (inst == null){
             inst = new Student();
         }
         return inst;
+    }
+
+    public Student(){
+        this.name = "";
+        this.age = 0;
+        this.grade = 0;
     }
 
     public Student(String name, int age, double grade){

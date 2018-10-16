@@ -5,12 +5,11 @@ public class Cube_Test {
         double cylinder = 0;
 
         Cube s = new Cube();
-        Cube c = new Cube();
 
-        sphere = s.volume(20);
-        cylinder = c.volue(10,20);
+        sphere = s.volume(10);
+        cylinder = s.volume(10,8);
 
-        System.out.println("球体的体积为："+sphere);
-        System.out.println("圆柱体的体积为："+cylinder);
+        System.out.println("半径为10的球体积是："+sphere);
+        System.out.println("低半径为10，高为8的圆柱体积是："+cylinder);
     }
 }
