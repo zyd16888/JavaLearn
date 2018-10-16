@@ -16,4 +16,9 @@ public class Circle2 implements CalculateAble {
     public double getArea() {
         return 3.14 * r * r;
     }
+
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
 }
