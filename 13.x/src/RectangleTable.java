@@ -16,9 +16,10 @@ public class RectangleTable extends TableInfo {
     }
 
     @Override
-    public void print(){
-        super.print();
-        System.out.println("方桌！");
-        System.out.println("长为"+width+"，宽为"+len);
+    public void display(){
+        System.out.println("方桌的信息如下：");
+        super.display();
+//        System.out.println("方桌！");
+//        System.out.println("长为"+width+"，宽为"+len);
     }
 }

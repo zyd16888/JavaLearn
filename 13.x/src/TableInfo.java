@@ -1,5 +1,3 @@
-
-
 /**
  * 描述:
  * 桌子类
@@ -16,8 +14,8 @@ public class TableInfo {
         this.hight = hight;
     }
 
-    public void print(){
-        System.out.println("桌子有"+legs+"条腿");
-        System.out.println("桌子高度为"+hight);
+    public void display(){
+        System.out.println("腿数："+legs);
+        System.out.println("高度："+hight);
     }
 }

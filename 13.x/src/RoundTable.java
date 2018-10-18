@@ -14,9 +14,10 @@ public class RoundTable extends TableInfo {
     }
 
     @Override
-    public void print(){
-        super.print();
-        System.out.println("圆桌！");
-        System.out.println("半径"+r);
+    public void display(){
+        System.out.println("圆桌的信息如下：");
+        super.display();
+//        System.out.println("圆桌！");
+//        System.out.println("半径"+r);
     }
 }
