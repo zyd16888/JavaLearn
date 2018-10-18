@@ -48,4 +48,21 @@ public class Student {
         System.out.println("成绩："+grade);
 //        myphone.print();
     }
+
+    /**
+     * 为配合程序17.9，增加的代码
+     */
+    public Student(String name, int age, double grade) {
+        this.name = name;
+        this.age = age;
+        this.grade = grade;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
