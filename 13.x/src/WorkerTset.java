@@ -7,7 +7,7 @@
  */
 public class WorkerTset {
     public static void main(String[] args) {
-        Worker w = new Worker("张三",25,5600,"总工");
+        Worker w = new Worker("张工",25,5600,"总工");
         w.display();
     }
 }
