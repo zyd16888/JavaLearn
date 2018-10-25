@@ -10,7 +10,7 @@ package task;
  */
 public class AreaException extends Exception {
     public AreaException(){
-        super("dividedException");
+        super("areaException");
     }
     AreaException(String message){
         super(message);
