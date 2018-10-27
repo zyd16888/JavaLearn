@@ -6,11 +6,11 @@ package people;
  * @author dong
  * @date 2018-10-27 15:16
  */
-public class People {
+public class Person {
     private String name;
     private int age;
 
-    public People(String name, int age) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }

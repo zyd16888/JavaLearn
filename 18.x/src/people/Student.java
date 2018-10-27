@@ -11,7 +11,7 @@ import phone.MobilePhone;
  * @author dong
  * @date 2018-10-27 15:20
  */
-public class Student extends People {
+public class Student extends Person {
     private double grade;
     private MobilePhone phone;
 
