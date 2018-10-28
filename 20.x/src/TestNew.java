@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
  */
 public class TestNew {
     public static void main(String[] args) {
-        String className = "people.people";
+        String className = "people.Person";
         String methodName = "display";
 
         try {
