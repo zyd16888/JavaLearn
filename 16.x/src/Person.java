@@ -5,7 +5,7 @@
  * @author dong
  * @date 2018-09-25 8:17
  */
-public abstract class Person {
+public  class Person {
     private String name;
     private int age;
 
@@ -18,8 +18,7 @@ public abstract class Person {
         this.name = name;
     }
 
-    /**
-     * 抽象类
-     */
-    public abstract void display();
+    public String getName() {
+        return name;
+    }
 }

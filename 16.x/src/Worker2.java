@@ -11,10 +11,7 @@ public class Worker2 extends Person implements SoundAble {
         super(name, age);
     }
 
-    @Override
-    public void display() {
 
-    }
 
     @Override
     public void sound() {

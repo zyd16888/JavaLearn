@@ -6,7 +6,7 @@
  * @author dong
  * @date 2018-09-27 10:29
  */
-public class Worker extends Person implements MoveAble {
+public class Worker extends Person implements MoveAble,SoundAble {
 
     public Worker(String name, int age) {
         super(name, age);
@@ -14,11 +14,11 @@ public class Worker extends Person implements MoveAble {
 
     @Override
     public void move() {
-        System.out.println("在车间走动");
+        System.out.println(getName()+"在车间走动！");
     }
 
     @Override
-    public void display() {
-
+    public void sound() {
+        System.out.println("噪声太大听不清楚！");
     }
 }

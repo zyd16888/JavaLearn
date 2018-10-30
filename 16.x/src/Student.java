@@ -21,8 +21,8 @@ public class Student extends Person implements MoveAble {
         System.out.println("每天行走方式移动");
     }
 
-    @Override
-    public void display() {
-        System.out.println("学生成绩"+grade);
-    }
+//    @Override
+//    public void display() {
+//        System.out.println("学生成绩"+grade);
+//    }
 }
