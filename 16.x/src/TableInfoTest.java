@@ -9,12 +9,14 @@
 public class TableInfoTest {
     public static void main(String[] args) {
         RoundTable t1 = new RoundTable(3,100,30.0);
-        RectangelTable t2 = new RectangelTable(4,100,40.0,60.0);
+        RectangelTable t2 = new RectangelTable(4,100,60.0,40.0);
 
-        System.out.println("圆桌面积"+t1.getArea());
-        t1.move();
+        System.out.println("圆桌面积："+t1.getArea());
+        System.out.println("圆桌周长："+t1.getPerimeter());
+        //t1.move();
 
-        System.out.println("方桌面积"+t2.getArea());
-        t2.move();
+        System.out.println("方桌面积："+t2.getArea());
+        System.out.println("方桌周长："+t2.getPerimeter());
+        //t2.move();
     }
 }
