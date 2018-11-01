@@ -21,7 +21,7 @@ public class ExceptionDemo {
             System.out.println("Exception is:" + e);
         }
         finally{
-            System.out.println("k=" + k); 
+            System.out.println("k=" + k);
         }
     }
 
