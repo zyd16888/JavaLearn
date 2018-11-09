@@ -33,7 +33,7 @@ public class StudentClass {
         Student temp;
         //冒泡排序
         for(int i = 0; i<size-1; i++){
-            for (int j = 1; j<size; j++){
+            for (int j = 1; j<size-i; j++){
                 if (stus[j-1].getGrade()>stus[j].getGrade()){
                     //比较两个整数的大小
                     temp = stus[j-1];

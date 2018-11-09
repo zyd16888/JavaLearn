@@ -1,21 +1,21 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
 /**
  * 描述:
- * 班级类，List实现
- * 21.4
+ * 21.10
+ * 班级类定义排序方法
  *
  * @author dong
- * @date 2018-11-06 15:21
+ * @date 2018-11-06 21:25
  */
-public class StudentClassList {
-    private List<Student>stuList;
+public class StudentClassList2 {
+
+    private List<Student2> stuList;
     private int size;
 
-    public StudentClassList(){
+    public StudentClassList2(){
         size = 0;
         stuList = null;
     }
@@ -27,34 +27,18 @@ public class StudentClassList {
 
         size = names.length;
 
-        stuList = new ArrayList<Student>();
-        Student temp;
+        stuList = new ArrayList<Student2>();
+        Student2 temp;
 
         for (int i=0; i<size; i++) {
-            temp = new Student(names[i], ages[i], grades[i]);
+            temp = new Student2(names[i], ages[i], grades[i]);
             stuList.add(temp);
         }
     }
 
-    /*public void sort(){
-        Student temp;
-        for (int i=0; i<size; i++){
-            for (int j=1; j<size-i; j++){
-                if(stuList.get(j-1).getGrade()>stuList.get(j).getGrade()){
-                    temp = stuList.get(j-1);
-                    stuList.set(j-1,stuList.get(j));
-                    stuList.set(j,temp);
-                }
-            }
-        }
-    }*/
 
-    /**
-     * 21.8修改
-     */
     public void sort(){
-        StudentComparator sc = new StudentComparator();
-        Collections.sort(stuList,sc);
+        Collections.sort(stuList);
     }
 
     /**
@@ -62,14 +46,14 @@ public class StudentClassList {
      * 增加add方法
      */
 
-    public void  add(Student s){
+    public void  add(Student2 s){
         stuList.add(s);
         size = stuList.size();
     }
 
     public String output(){
         StringBuilder studentInfo = new StringBuilder();
-        for (Student stu : stuList){
+        for (Student2 stu : stuList){
             studentInfo.append("姓名："+stu.getName()+"\t成绩："+stu.getGrade()+"\r\n");
         }
         return studentInfo.toString();

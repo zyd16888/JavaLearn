@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46fa3bb0-3975-462a-8945-550e29962ade" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/../10.x/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10.x/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10.x/out/production/10.x/TableInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../10.x/out/production/10.x/TableInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10.x/out/production/10.x/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../10.x/out/production/10.x/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10.x/out/production/10.x/WorkerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../10.x/out/production/10.x/WorkerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21.x/src/Student2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21.x/src/StudentClassList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21.x/src/StudentComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21.x/src/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21.x/src/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11.x/Cube.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11.x/Cube.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11.x/Cube_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11.x/Cube_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11.x/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11.x/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/11.x/WorkerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/11.x/WorkerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cube_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cube_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../12.x/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12.x/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12.x/out/production/12.x/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12.x/out/production/12.x/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12.x/out/production/12.x/Student_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../12.x/out/production/12.x/Student_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12.x/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../12.x/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21.x/src/StudentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../21.x/src/StudentClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21.x/src/StudentClassList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../21.x/src/StudentClassList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21.x/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../21.x/src/Test1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +24,15 @@
     <session id="-414406426">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -70,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cube.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state>
               <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
               <folding>
                 <element signature="e#55#56#0" expanded="true" />
@@ -85,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Cube_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -101,6 +98,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -117,9 +115,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="120" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="115" />
+    <option name="y" value="77" />
     <option name="width" value="1590" />
     <option name="height" value="885" />
   </component>
@@ -129,9 +127,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,11 +149,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539169593355" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../12.x" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../21.x" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -255,15 +252,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="92" y="62" width="1272" height="708" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14410187" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24629325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2862254" />
@@ -284,6 +283,7 @@
       <window_info anchor="right" id="调色板" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Palette" order="8" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -342,7 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cube.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state>
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
             <element signature="e#55#56#0" expanded="true" />
@@ -355,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cube_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -418,6 +418,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
