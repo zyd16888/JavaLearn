@@ -58,10 +58,10 @@ public class Number {
 
     private static void readFromFile() throws IOException {
         FileReader out = new FileReader("sushu.txt");
-        int qq=out.read();
-        while (qq != -1 ){
-            System.out.print((char)qq);
-            qq = out.read();
+        int num=out.read();
+        while (num  != -1 ){
+            System.out.print((char)num);
+            num = out.read();
         }
     }
 
