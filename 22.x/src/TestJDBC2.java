@@ -18,6 +18,10 @@ public class TestJDBC2 {
         //保存学生信息到数据库
         xg.saveToDB();
 
+        System.out.println(xg.outFormDB());
+
+
+
 
     }
 }

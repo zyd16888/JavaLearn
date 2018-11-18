@@ -63,6 +63,8 @@ public class Number {
             System.out.print((char)num);
             num = out.read();
         }
+
+        out.close();
     }
 
 }

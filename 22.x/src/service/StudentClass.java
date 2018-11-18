@@ -58,4 +58,14 @@ public class StudentClass {
         }
     }
 
+    public String outFormDB(){
+        StudentDAO dao = new StudentDAO();
+        StringBuilder out = new StringBuilder();
+        List<Student> stuList = dao.outsert();
+        for (Student s : stuList){
+            out.append("ĞÕÃû£º"+s.getName()+"  ÄêÁä£º"+s.getAge()+"  ³É¼¨£º"+s.getGrade()+"\r\n");
+        }
+        return out.toString();
+    }
+
 }

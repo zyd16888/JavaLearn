@@ -1,9 +1,10 @@
 package data;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import service.Student;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 描述:
@@ -41,5 +42,32 @@ public class DbOperation {
 
     public void close(Connection conn)throws SQLException{
         conn.close();
+    }
+
+    /*
+     * 数据库读取方法
+     */
+    public List<Student>getAll(Connection conn,String sql){
+        List<Student>result = new ArrayList<Student>();
+
+        Student temp;
+        String name;
+        int age;
+        double grade;
+
+        try {
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()){
+                name = rs.getString("name");
+                age = rs.getInt("age");
+                grade = rs.getDouble("grade");
+                temp = new Student(name,age,grade);
+                result.add(temp);
+            }
+        } catch (SQLException e1) {
+            System.err.println(e1);
+        }
+        return result;
     }
 }

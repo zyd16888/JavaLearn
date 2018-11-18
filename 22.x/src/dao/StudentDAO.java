@@ -5,6 +5,8 @@ import service.Student;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 描述:
@@ -38,5 +40,29 @@ public class StudentDAO {
             e.printStackTrace();
         }
 
+    }
+
+    public List<Student> outsert(){
+        List<Student>result = new ArrayList<Student>();
+        String sql;
+        sql = "select * from student";
+        DbOperation db = new DbOperation();
+        Connection con = null;
+        try {
+            con = db.getConnection();
+        } catch (ClassNotFoundException e) {
+            System.out.println("数据库驱动程序不存在123");
+            e.printStackTrace();
+        } catch (SQLException e) {
+            System.out.println("数据库操作错误321");
+            e.printStackTrace();
+        }
+        result = db.getAll(con,sql);
+        try {
+            db.close(con);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 }
