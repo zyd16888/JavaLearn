@@ -7,13 +7,14 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 /**
- * æè¿°:
- * æ•°æ®åº“è®¿é—®ç±»
+ * ÃèÊö:
+ * Êı¾İ¿â·ÃÎÊÀà
  * 22.6
  *
  * @author dong
  * @date 2018-11-17 9:37
  */
+
 public class StudentDAO {
     public void insert (Student s){
         String sql;
@@ -30,10 +31,10 @@ public class StudentDAO {
             db.update(con,sql);
             db.close(con);
         }catch (ClassNotFoundException e){
-            System.out.println("æ•°æ®åº“é©±åŠ¨ç¨‹åºä¸å­˜åœ¨");
+            System.out.println("Êı¾İ¿âÇı¶¯³ÌĞò²»´æÔÚ123");
             e.printStackTrace();
         }catch (SQLException e){
-            System.out.println("æ•°æ®åº“æ“ä½œé”™è¯¯");
+            System.out.println("Êı¾İ¿â²Ù×÷´íÎó321");
             e.printStackTrace();
         }
 

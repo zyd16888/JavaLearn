@@ -6,8 +6,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- * 鎻忚堪:
- * 鏁版嵁搴撴搷浣滅被
+ * 描述:
+ * 数据库操作类
  * 22.5
  *
  * @author dong
@@ -20,13 +20,13 @@ public class DbOperation {
     public Connection getConnection()throws ClassNotFoundException, SQLException{
 
         String sDBDriver = "com.mysql.jdbc.Driver";
-        String conStr = "jdbc:mysql://localhost:3306/javadb?useUnicode=true&characterEncoding=utf8";
+        String conStr = "jdbc:mysql://localhost:3306/javadb?useUnicode=true&characterEncoding=gbk";
         String username = "root";
         String password = "475182659";
 
-        //鍔犺浇椹卞姩鍣ㄧ被
+        //加载驱动器类
         Class.forName(sDBDriver);
-        //寰楀埌杩炴帴瀵硅薄
+        //得到连接对象
         Connection conn = DriverManager.getConnection(conStr,username,password);
 
         return conn;

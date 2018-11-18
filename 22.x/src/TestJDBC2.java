@@ -1,9 +1,8 @@
-import service.Student;
 import service.StudentClass;
 
 /**
- * æè¿°:
- * æ•°æ®åº“æµ‹è¯•ç±»
+ * ÃèÊö:
+ * Êı¾İ¿â²âÊÔÀà
  * 22.7
  *
  * @author dong
@@ -11,12 +10,12 @@ import service.StudentClass;
  */
 public class TestJDBC2 {
     public static void main(String args[]){
-
-        //åˆ›å»ºç­çº§å¯¹è±¡
+        System.out.println("²âÊÔ²âÊÔ²âÊÔ123");
+        //´´½¨°à¼¶¶ÔÏó
         StudentClass xg = new StudentClass();
-        //ç»™ç­çº§æ·»åŠ å­¦ç”Ÿ
+        //¸ø°à¼¶Ìí¼ÓÑ§Éú
         xg.createClass();
-        //ä¿å­˜å­¦ç”Ÿä¿¡æ¯åˆ°æ•°æ®åº“
+        //±£´æÑ§ÉúĞÅÏ¢µ½Êı¾İ¿â
         xg.saveToDB();
 
 

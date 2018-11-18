@@ -7,8 +7,8 @@ import java.util.Map;
 import dao.StudentDAO;
 
 /**
- * æè¿°:
- * ç­çº§ç±»
+ * ÃèÊö:
+ * °à¼¶Àà
  * 22.1
  *
  * @author dong
@@ -24,7 +24,7 @@ public class StudentClass {
     }
 
     public void createClass(){
-        String names[] = {"å¼ ä¸‰","ç‹äº”","æå››","èµµå…­","å­™ä¸ƒ"};
+        String names[] = {"ÕÅÈı","ÍõÎå","ÀîËÄ","ÕÔÁù","ËïÆß"};
         double grades[] = {67,78.5,98,76.5,90};
         int ages[] = {17,18,18,19,17};
 
@@ -38,14 +38,13 @@ public class StudentClass {
             stuList.add(temp);
         }
     }
-
     public List<Map<String,String>> formatStudent(){
         List fClass = new ArrayList<Map<String,String>>();
         Map stu;
         for (Student s: stuList){
             stu = new HashMap<String,String>();
-            stu.put("å§“å", s.getName());
-            stu.put("æˆç»©", Double.toString(s.getGrade()));
+            stu.put("ĞÕÃû", s.getName());
+            stu.put("³É¼¨", Double.toString(s.getGrade()));
             fClass.add(stu);
         }
         return fClass;
