@@ -6,8 +6,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * æè¿°:
- * æµ‹è¯•ç±»ç¨‹åº
+ * ÃèÊö:
+ * ²âÊÔÀà³ÌĞò
+ * Ğ´ÈëÎÄ¼ş
  * 22.3
  *
  * @author dong
@@ -17,25 +18,25 @@ public class Test {
     public static void main(String[] args) {
         List<Map<String, String>>lst;
 
-        //åˆ›å»ºç­çº§å¯¹è±¡
+        //´´½¨°à¼¶¶ÔÏó
         StudentClass xg = new StudentClass();
 
-        //ç»™ç­çº§æ·»åŠ å­¦ç”Ÿ
+        //¸ø°à¼¶Ìí¼ÓÑ§Éú
         xg.createClass();
 
-        //æ ¼å¼åŒ–å­¦ç”Ÿä¿¡æ¯
+        //¸ñÊ½»¯Ñ§ÉúĞÅÏ¢
         lst = xg.formatStudent();
 
         try {
             FileOperation xgStudent = new FileOperation("student.txt");
-            //ä¿å­˜å­¦ç”Ÿä¿¡æ¯åˆ°æ–‡ä»¶
+            //±£´æÑ§ÉúĞÅÏ¢µ½ÎÄ¼ş
             xgStudent.save(lst);
-            //å…³é—­æ–‡ä»¶
+            //¹Ø±ÕÎÄ¼ş
             xgStudent.close();
-            //æ˜¾ç¤ºä¿å­˜æç¤º
-            System.out.println("æ–‡ä»¶ä¿å­˜æˆåŠŸï¼");
+            //ÏÔÊ¾±£´æÌáÊ¾
+            System.out.println("ÎÄ¼ş±£´æ³É¹¦£¡");
         } catch (IOException e) {
-            System.out.println("IOé”™è¯¯ï¼Œæ–‡ä»¶ä¿å­˜å¤±è´¥ï¼");
+            System.out.println("IO´íÎó£¬ÎÄ¼ş±£´æÊ§°Ü£¡");
         }
     }
 }
