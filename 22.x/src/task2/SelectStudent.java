@@ -30,8 +30,8 @@ public class SelectStudent {
         ResultSet rs=st.executeQuery(sql);//查询
         System.out.println("姓名       年龄       成绩");
         while(rs.next()){
-            System.out.print(rs.getString(1)+"       ");
-            System.out.print(rs.getString(2)+"       ");
+            System.out.print(rs.getString("name")+"       ");
+            System.out.print(rs.getString("age")+"       ");
             System.out.println(rs.getString(3));
         }
         rs.close();
