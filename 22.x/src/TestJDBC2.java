@@ -17,7 +17,7 @@ public class TestJDBC2 {
         xg.createClass();
         //保存学生信息到数据库
         xg.saveToDB();
-
+        //输出数据库信息
         System.out.println(xg.outFormDB());
 
 

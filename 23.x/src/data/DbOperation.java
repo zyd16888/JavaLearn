@@ -7,27 +7,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ÃèÊö:
- * Êı¾İ¿â²Ù×÷Àà
- * 22.5
+ * æè¿°:
  *
  * @author dong
- * @date 2018-11-17 9:43
+ * @date 2018-11-18 13:50
  */
 public class DbOperation {
 
     public DbOperation(){}
 
-    public Connection getConnection()throws ClassNotFoundException, SQLException{
+    public Connection getConnection()throws ClassNotFoundException, SQLException {
 
         String sDBDriver = "com.mysql.jdbc.Driver";
-        String conStr = "jdbc:mysql://localhost:3306/javadb?serverTimezone=GMT&useUnicode=true&characterEncoding=utf8";
+        String conStr = "jdbc:mysql://localhost:3306/javadb?useUnicode=true&characterEncoding=gbk";
         String username = "root";
         String password = "475182659";
 
-        //¼ÓÔØÇı¶¯Æ÷Àà
+        //åŠ è½½é©±åŠ¨å™¨ç±»
         Class.forName(sDBDriver);
-        //µÃµ½Á¬½Ó¶ÔÏó
+        //å¾—åˆ°è¿æ¥å¯¹è±¡
         Connection conn = DriverManager.getConnection(conStr,username,password);
 
         return conn;
@@ -36,7 +34,6 @@ public class DbOperation {
     public void  update(Connection conn, String sql)throws SQLException{
         Statement st = conn.createStatement();
         st.executeUpdate(sql);
-
         st.close();
     }
 
@@ -45,9 +42,9 @@ public class DbOperation {
     }
 
     /*
-     * Êı¾İ¿â¶ÁÈ¡·½·¨
+     * æ•°æ®åº“è¯»å–æ–¹æ³•
      */
-    public List<Student>getAll(Connection conn,String sql){
+    public List<Student> getAll(Connection conn, String sql){
         List<Student>result = new ArrayList<Student>();
 
         Student temp;
@@ -58,6 +55,7 @@ public class DbOperation {
         try {
             PreparedStatement ps = conn.prepareStatement(sql);
             ResultSet rs = ps.executeQuery();
+
             while (rs.next()){
                 name = rs.getString("name");
                 age = rs.getInt("age");
