@@ -3,6 +3,7 @@ package view;
 import dao.StudentDAO;
 import service.Student;
 import service.StudentClass;
+import show.Display;
 import sun.awt.DisplayChangedListener;
 
 
@@ -175,23 +176,23 @@ public class StudentManagement implements ActionListener    {
         StringBuilder out = new StringBuilder();
         StudentClass xg = sd.getStudentClass();
 //        System.out.println(xg.formatStudent());
-        for (Map<String, String> s : xg.formatStudent()){
+        /*for (Map<String, String> s : xg.formatStudent()){
             out.append("姓名："+s.get("姓名")+"      年龄："+s.get("年龄")+"      成绩："+s.get("成绩")+"\r\n");
         }
         System.out.println(out.toString());
-        areaShowAll.setText(out.toString());
+        areaShowAll.setText(out.toString());*/
+        Display display = new Display();
+        String out1 = display.print(xg.formatStudent());
+        areaShowAll.setText(out1);
     }
 
     private void sortAll(){
         StudentDAO sd = new StudentDAO();
-        StringBuilder out = new StringBuilder();
         StudentClass xg = sd.getStudentClass();
         xg.sort();
-        for (Map<String, String> s : xg.formatStudent()){
-            out.append("姓名："+s.get("姓名")+"      年龄："+s.get("年龄")+"      成绩："+s.get("成绩")+"\r\n");
-        }
-        out.toString();
-        areaShowAll.setText(out.toString());
+        Display display = new Display();
+        String out = display.print(xg.formatStudent());
+        areaShowAll.setText(out);
     }
 
     private void queryStudent(){
