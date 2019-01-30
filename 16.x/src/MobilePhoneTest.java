@@ -13,6 +13,7 @@ public class MobilePhoneTest {
 
         m = new MobilePhone("HK","13800000000");
         ((MobilePhone) m).print();
+        
         m.move();
     }
 }
