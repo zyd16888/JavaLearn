@@ -19,7 +19,7 @@ public class DbOperation {
     public Connection getConnection()throws ClassNotFoundException, SQLException {
 
         String sDBDriver = "com.mysql.jdbc.Driver";
-        String conStr = "jdbc:mysql://localhost:3306/javadb6";
+        String conStr = "jdbc:mysql://localhost:3306/javadb6?characterEncoding=utf-8&autoReconnect=true&useSSL=false&serverTimezone=GMT";
         String username = "root";
         String password = "475182659";
 
